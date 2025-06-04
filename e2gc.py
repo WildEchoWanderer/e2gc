@@ -5,6 +5,16 @@ import locale
 import sys
 import os
 
+print(r"""
+
+       ____            
+   ___|___ \ __ _  ___ 
+  / _ \ __) / _` |/ __|
+ |  __// __/ (_| | (__ 
+  \___|_____\__, |\___|
+            |___/      
+""")
+
 def parse_german_date(date_str):
     """Parst deutsche Datumsangaben wie 'Dienstag, 2. September 2025'"""
     try:
