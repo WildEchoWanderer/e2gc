@@ -15,7 +15,7 @@ This file converts an Excel sheet containing ZHAW school dates in a specific for
 ## Prerequisite:
 
 ```bash
-pip install pandas openpyxl
+pip install pandas icalendar
 ```
 
 ## Instructions:
@@ -27,20 +27,14 @@ pip install pandas openpyxl
 
 ## Available Commands:
 
-### Basic Conversion
+### Basic Conversion (uses termine.xlsx)
 
 ```bash
-python e2gc.py your_appointments.csv
+python e2gc.py 
 ```
 
-### With Specific Output File
+### With Specific input File
 
 ```bash
-python e2gc.py appointments.xlsx -o calendar.csv
-```
-
-### Excel with Specific Worksheet
-
-```bash
-python e2gc.py workbook.xlsx -s "Appointments"
+python e2gc.py appointments.xlsx
 ```
