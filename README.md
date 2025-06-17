@@ -10,7 +10,7 @@
 
 # **Excel-to-Google-Calendar (now with .ics support)
 
-This file converts an Excel sheet containing ZHAW school dates in a specific format into a CSV file for import into Google Calendar.
+This file converts an Excel sheet containing ZHAW school dates in a specific format into a CSV file for import into Google Calendar or into a .ics file.
 
 ## Prerequisite:
 
