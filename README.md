@@ -15,7 +15,7 @@ This file converts an Excel sheet containing ZHAW school dates in a specific for
 ## Prerequisite:
 
 ```bash
-pip install pandas icalendar
+pip install pandas icalendar openpyxl
 ```
 
 ## Instructions:
